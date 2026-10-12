@@ -1,0 +1,1447 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>قوة | QOWA</title>
+
+  <meta
+    name="description"
+    content="قوة متجر عربي للمعدات والأدوات والمستلزمات الرياضية واللياقة البدنية"
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- الشريط العلوي -->
+
+  <div class="top-bar">
+    <div class="container top-bar-content">
+
+      <p>
+        <i class="fa-solid fa-truck-fast"></i>
+        توصيل مجاني للطلبات التي تزيد عن 100 دينار
+      </p>
+
+      <div class="top-links">
+        <a href="#offers">العروض</a>
+        <a href="#contact">تواصل معنا</a>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- الهيدر -->
+
+  <header class="main-header" id="mainHeader">
+
+    <div class="container header-content">
+
+      <a href="#home" class="logo">
+
+        <span class="logo-icon">
+          <i class="fa-solid fa-dumbbell"></i>
+        </span>
+
+        <span class="logo-text">
+          <strong>قوة</strong>
+          <small>QOWA</small>
+        </span>
+
+      </a>
+
+
+      <nav class="desktop-nav">
+
+        <a href="#home" class="nav-link active">
+          الرئيسية
+        </a>
+
+        <a href="#products" class="nav-link">
+          المنتجات
+        </a>
+
+        <a href="#categories" class="nav-link">
+          الأقسام
+        </a>
+
+        <a href="#offers" class="nav-link">
+          العروض
+        </a>
+
+        <a href="#contact" class="nav-link">
+          تواصل معنا
+        </a>
+
+      </nav>
+
+
+      <div class="header-actions">
+
+        <button
+          class="icon-btn"
+          id="searchToggle"
+          aria-label="البحث"
+        >
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+
+        <button
+          class="icon-btn"
+          id="wishlistBtn"
+          aria-label="المفضلة"
+        >
+          <i class="fa-regular fa-heart"></i>
+
+          <span class="action-count" id="wishlistCount">
+            0
+          </span>
+        </button>
+
+
+        <button
+          class="icon-btn"
+          id="cartBtn"
+          aria-label="سلة المشتريات"
+        >
+          <i class="fa-solid fa-bag-shopping"></i>
+
+          <span class="action-count" id="cartCount">
+            0
+          </span>
+        </button>
+
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="القائمة"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+      </div>
+
+    </div>
+
+
+    <!-- البحث -->
+
+    <div class="search-panel" id="searchPanel">
+
+      <div class="container search-panel-content">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input
+          type="search"
+          id="mainSearchInput"
+          placeholder="ابحث عن دمبل أو معدات أو ملابس رياضية"
+          autocomplete="off"
+        >
+
+        <button id="closeSearch" aria-label="إغلاق البحث">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+      </div>
+
+    </div>
+
+
+    <!-- قائمة الهاتف -->
+
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="#home">الرئيسية</a>
+      <a href="#products">المنتجات</a>
+      <a href="#categories">الأقسام</a>
+      <a href="#offers">العروض</a>
+      <a href="#contact">تواصل معنا</a>
+    </nav>
+
+  </header>
+
+
+  <main>
+
+    <!-- Hero -->
+
+    <section class="hero" id="home">
+
+      <div class="container hero-grid">
+
+        <div class="hero-content">
+
+          <span class="hero-label">
+            <i class="fa-solid fa-bolt"></i>
+            ابدأ أقوى نسخة منك
+          </span>
+
+          <h1>
+            معداتك تبدأ هنا
+            <span>وقوتك تبدأ معك</span>
+          </h1>
+
+          <p>
+            اكتشف مجموعة مختارة من معدات اللياقة والأوزان
+            والملابس والإكسسوارات الرياضية لتدريب أقوى
+            في المنزل أو النادي
+          </p>
+
+
+          <div class="hero-buttons">
+
+            <a href="#products" class="primary-btn">
+              تسوق الآن
+              <i class="fa-solid fa-arrow-left"></i>
+            </a>
+
+            <a href="#categories" class="secondary-btn">
+              استكشف الأقسام
+            </a>
+
+          </div>
+
+
+          <div class="hero-stats">
+
+            <div>
+              <strong>350+</strong>
+              <span>منتج رياضي</span>
+            </div>
+
+            <div>
+              <strong>4.9</strong>
+              <span>تقييم العملاء</span>
+            </div>
+
+            <div>
+              <strong>24/7</strong>
+              <span>خدمة العملاء</span>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+          <img
+            src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=1200&q=85"
+            alt="معدات وتمارين رياضية"
+          >
+
+          <div class="hero-floating-card">
+
+            <i class="fa-solid fa-medal"></i>
+
+            <div>
+              <strong>معدات مختارة</strong>
+              <span>لتمرين أكثر قوة</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- المميزات -->
+
+    <section class="features-strip">
+
+      <div class="container features-grid">
+
+        <article>
+
+          <i class="fa-solid fa-truck-fast"></i>
+
+          <div>
+            <h3>توصيل سريع</h3>
+            <p>حتى باب منزلك</p>
+          </div>
+
+        </article>
+
+
+        <article>
+
+          <i class="fa-solid fa-shield-halved"></i>
+
+          <div>
+            <h3>جودة عالية</h3>
+            <p>معدات مختارة بعناية</p>
+          </div>
+
+        </article>
+
+
+        <article>
+
+          <i class="fa-solid fa-rotate-left"></i>
+
+          <div>
+            <h3>استبدال سهل</h3>
+            <p>تجربة شراء مريحة</p>
+          </div>
+
+        </article>
+
+
+        <article>
+
+          <i class="fa-solid fa-headset"></i>
+
+          <div>
+            <h3>دعم العملاء</h3>
+            <p>نساعدك في اختيار معداتك</p>
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- الأقسام -->
+
+    <section class="section categories-section" id="categories">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <div>
+            <span>اختر تمرينك</span>
+            <h2>تسوق حسب القسم</h2>
+          </div>
+
+          <p>
+            كل ما تحتاجه لبناء مساحة تدريب متكاملة
+            وتحقيق أهدافك الرياضية
+          </p>
+
+        </div>
+
+
+        <div class="categories-grid">
+
+          <button class="category-card" data-category="weights">
+
+            <div class="category-image">
+
+              <img
+                src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=700&q=85"
+                alt="أوزان ودمبلز"
+              >
+
+            </div>
+
+            <div class="category-content">
+
+              <h3>الأوزان</h3>
+
+              <span>
+                اكتشف المجموعة
+                <i class="fa-solid fa-arrow-left"></i>
+              </span>
+
+            </div>
+
+          </button>
+
+
+          <button class="category-card" data-category="equipment">
+
+            <div class="category-image">
+
+              <img
+                src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=700&q=85"
+                alt="معدات رياضية"
+              >
+
+            </div>
+
+            <div class="category-content">
+
+              <h3>معدات التدريب</h3>
+
+              <span>
+                اكتشف المجموعة
+                <i class="fa-solid fa-arrow-left"></i>
+              </span>
+
+            </div>
+
+          </button>
+
+
+          <button class="category-card" data-category="clothing">
+
+            <div class="category-image">
+
+              <img
+                src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=700&q=85"
+                alt="ملابس رياضية"
+              >
+
+            </div>
+
+            <div class="category-content">
+
+              <h3>الملابس الرياضية</h3>
+
+              <span>
+                اكتشف المجموعة
+                <i class="fa-solid fa-arrow-left"></i>
+              </span>
+
+            </div>
+
+          </button>
+
+
+          <button class="category-card" data-category="accessories">
+
+            <div class="category-image">
+
+              <img
+                src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=700&q=85"
+                alt="إكسسوارات رياضية"
+              >
+
+            </div>
+
+            <div class="category-content">
+
+              <h3>الإكسسوارات</h3>
+
+              <span>
+                اكتشف المجموعة
+                <i class="fa-solid fa-arrow-left"></i>
+              </span>
+
+            </div>
+
+          </button>
+
+
+          <button class="category-card" data-category="home">
+
+            <div class="category-image">
+
+              <img
+                src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=700&q=85"
+                alt="لياقة منزلية"
+              >
+
+            </div>
+
+            <div class="category-content">
+
+              <h3>اللياقة المنزلية</h3>
+
+              <span>
+                اكتشف المجموعة
+                <i class="fa-solid fa-arrow-left"></i>
+              </span>
+
+            </div>
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- عرض الموسم -->
+
+    <section class="offer-section" id="offers">
+
+      <div class="container">
+
+        <div class="offer-banner">
+
+          <div class="offer-image">
+
+            <img
+              src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1100&q=85"
+              alt="نادي ومعدات رياضية"
+            >
+
+          </div>
+
+
+          <div class="offer-content">
+
+            <span class="offer-label">
+              تحدي الموسم
+            </span>
+
+            <h2>
+              خصومات تصل إلى
+              <strong>40%</strong>
+            </h2>
+
+            <p>
+              جهز مساحة تدريبك واستفد من عروض محدودة
+              على مجموعة مختارة من المعدات والأدوات الرياضية
+            </p>
+
+
+            <div class="countdown">
+
+              <div>
+                <strong id="days">00</strong>
+                <span>يوم</span>
+              </div>
+
+              <div>
+                <strong id="hours">00</strong>
+                <span>ساعة</span>
+              </div>
+
+              <div>
+                <strong id="minutes">00</strong>
+                <span>دقيقة</span>
+              </div>
+
+              <div>
+                <strong id="seconds">00</strong>
+                <span>ثانية</span>
+              </div>
+
+            </div>
+
+
+            <a href="#products" class="primary-btn">
+
+              تسوق العروض
+
+              <i class="fa-solid fa-arrow-left"></i>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- المنتجات -->
+
+    <section class="section products-section" id="products">
+
+      <div class="container">
+
+        <div class="section-heading products-heading">
+
+          <div>
+            <span>اختيارات قوة</span>
+            <h2>منتجات تساعدك على الوصول لهدفك</h2>
+          </div>
+
+
+          <div class="products-tools">
+
+            <div class="products-search">
+
+              <i class="fa-solid fa-magnifying-glass"></i>
+
+              <input
+                type="search"
+                id="productSearch"
+                placeholder="ابحث عن منتج"
+              >
+
+            </div>
+
+
+            <select id="sortProducts">
+
+              <option value="default">
+                الترتيب الافتراضي
+              </option>
+
+              <option value="low">
+                السعر من الأقل للأعلى
+              </option>
+
+              <option value="high">
+                السعر من الأعلى للأقل
+              </option>
+
+              <option value="rating">
+                الأعلى تقييمًا
+              </option>
+
+            </select>
+
+          </div>
+
+        </div>
+
+
+        <div class="filter-buttons">
+
+          <button class="filter-btn active" data-filter="all">
+            الكل
+          </button>
+
+          <button class="filter-btn" data-filter="weights">
+            الأوزان
+          </button>
+
+          <button class="filter-btn" data-filter="equipment">
+            معدات التدريب
+          </button>
+
+          <button class="filter-btn" data-filter="clothing">
+            الملابس
+          </button>
+
+          <button class="filter-btn" data-filter="accessories">
+            الإكسسوارات
+          </button>
+
+          <button class="filter-btn" data-filter="home">
+            اللياقة المنزلية
+          </button>
+
+        </div>
+
+
+        <div
+          class="products-grid"
+          id="productsGrid"
+        ></div>
+
+
+        <div
+          class="no-products"
+          id="noProducts"
+        >
+
+          <i class="fa-solid fa-dumbbell"></i>
+
+          <h3>
+            لم نجد منتجات مطابقة
+          </h3>
+
+          <p>
+            جرّب البحث بكلمة أخرى أو اختر قسمًا مختلفًا
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- بانرات -->
+
+    <section class="section inspiration-section">
+
+      <div class="container">
+
+        <div class="inspiration-grid">
+
+          <article class="inspiration-card">
+
+            <img
+              src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e?auto=format&fit=crop&w=1000&q=85"
+              alt="تمارين القوة"
+            >
+
+            <div class="inspiration-overlay">
+
+              <span>تدريب القوة</span>
+
+              <h3>
+                ابنِ قوتك خطوة بعد خطوة
+              </h3>
+
+              <button
+                class="promo-filter-btn"
+                data-promo-category="weights"
+              >
+                تسوق الأوزان
+              </button>
+
+            </div>
+
+          </article>
+
+
+          <article class="inspiration-card">
+
+            <img
+              src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1000&q=85"
+              alt="تمارين منزلية"
+            >
+
+            <div class="inspiration-overlay">
+
+              <span>تمرينك في بيتك</span>
+
+              <h3>
+                حول أي مساحة إلى مكان للتدريب
+              </h3>
+
+              <button
+                class="promo-filter-btn"
+                data-promo-category="home"
+              >
+                معدات المنزل
+              </button>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- النشرة -->
+
+    <section class="newsletter-section">
+
+      <div class="container newsletter-content">
+
+        <div>
+
+          <i class="fa-solid fa-bolt"></i>
+
+          <div>
+            <h2>لا تفوت عروض قوة</h2>
+
+            <p>
+              اشترك ليصلك جديد المعدات والعروض الرياضية
+            </p>
+          </div>
+
+        </div>
+
+
+        <form id="newsletterForm">
+
+          <input
+            type="email"
+            id="newsletterEmail"
+            placeholder="أدخل بريدك الإلكتروني"
+            required
+          >
+
+          <button type="submit">
+            اشتراك
+          </button>
+
+        </form>
+
+      </div>
+
+    </section>
+
+
+    <!-- التواصل -->
+
+    <section class="section contact-section" id="contact">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <div>
+            <span>نحن معك</span>
+            <h2>تواصل مع قوة</h2>
+          </div>
+
+          <p>
+            نموذج متجر إلكتروني متكامل للمعدات
+            والمستلزمات الرياضية
+          </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+          <article class="contact-card">
+
+            <div class="contact-icon">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+
+            <h3>واتساب</h3>
+
+            <p>
+              افتح واتساب للتواصل والاستفسار
+            </p>
+
+            <a
+              href="https://www.whatsapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              فتح واتساب
+              <i class="fa-solid fa-arrow-left"></i>
+            </a>
+
+          </article>
+
+
+          <article class="contact-card">
+
+            <div class="contact-icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+
+            <h3>الهاتف</h3>
+
+            <p>
+              نموذج لوظيفة الاتصال المباشر
+            </p>
+
+            <a href="tel:+15550103000">
+              +1 555 010 3000
+            </a>
+
+          </article>
+
+
+          <article class="contact-card">
+
+            <div class="contact-icon">
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+
+            <h3>البريد الإلكتروني</h3>
+
+            <p>
+              أرسل استفسارك عبر البريد
+            </p>
+
+            <a href="mailto:hello@qowa-demo.com">
+              hello@qowa-demo.com
+            </a>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- الفوتر -->
+
+  <footer class="footer">
+
+    <div class="container footer-grid">
+
+      <div class="footer-brand">
+
+        <a href="#home" class="logo footer-logo">
+
+          <span class="logo-icon">
+            <i class="fa-solid fa-dumbbell"></i>
+          </span>
+
+          <span class="logo-text">
+            <strong>قوة</strong>
+            <small>QOWA</small>
+          </span>
+
+        </a>
+
+
+        <p>
+          معدات ومستلزمات رياضية تساعدك على التدريب
+          والوصول إلى أهدافك بثقة
+        </p>
+
+
+        <div class="social-links">
+
+          <a href="#" aria-label="فيسبوك">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+
+          <a href="#" aria-label="إنستغرام">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="#" aria-label="تيك توك">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+
+          <a
+            href="https://www.whatsapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="واتساب"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>روابط سريعة</h3>
+
+        <a href="#home">الرئيسية</a>
+        <a href="#products">المنتجات</a>
+        <a href="#categories">الأقسام</a>
+        <a href="#offers">العروض</a>
+        <a href="#contact">تواصل معنا</a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>الأقسام</h3>
+
+        <button
+          class="footer-category"
+          data-footer-category="weights"
+        >
+          الأوزان
+        </button>
+
+        <button
+          class="footer-category"
+          data-footer-category="equipment"
+        >
+          معدات التدريب
+        </button>
+
+        <button
+          class="footer-category"
+          data-footer-category="clothing"
+        >
+          الملابس الرياضية
+        </button>
+
+        <button
+          class="footer-category"
+          data-footer-category="accessories"
+        >
+          الإكسسوارات
+        </button>
+
+        <button
+          class="footer-category"
+          data-footer-category="home"
+        >
+          اللياقة المنزلية
+        </button>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>خدمة العملاء</h3>
+
+        <a href="#contact">تواصل معنا</a>
+        <a href="#products">المنتجات</a>
+        <a href="#offers">العروض</a>
+        <a href="#categories">الأقسام</a>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <p>
+          جميع الحقوق محفوظة ©
+          <span id="currentYear"></span>
+          قوة
+        </p>
+
+        <div class="payment-icons">
+          <i class="fa-brands fa-cc-visa"></i>
+          <i class="fa-brands fa-cc-mastercard"></i>
+          <i class="fa-solid fa-money-bill-wave"></i>
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- Overlay السلة -->
+
+  <div
+    class="drawer-overlay"
+    id="cartOverlay"
+  ></div>
+
+
+  <!-- السلة -->
+
+  <aside
+    class="side-drawer"
+    id="cartDrawer"
+  >
+
+    <div class="drawer-header">
+
+      <div>
+
+        <h2>
+          <i class="fa-solid fa-bag-shopping"></i>
+          سلة المشتريات
+        </h2>
+
+        <p id="cartItemsText">
+          السلة فارغة
+        </p>
+
+      </div>
+
+
+      <button
+        id="closeCart"
+        aria-label="إغلاق السلة"
+      >
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+    </div>
+
+
+    <div
+      class="drawer-body"
+      id="cartItems"
+    >
+
+      <div class="empty-state">
+
+        <i class="fa-solid fa-bag-shopping"></i>
+
+        <h3>سلتك فارغة</h3>
+
+        <p>
+          أضف منتجاتك لتظهر هنا
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div
+      class="cart-footer"
+      id="cartFooter"
+    >
+
+      <div class="summary-row">
+
+        <span>المجموع الفرعي</span>
+
+        <strong id="cartSubtotal">
+          0 د.أ
+        </strong>
+
+      </div>
+
+
+      <div class="summary-row">
+
+        <span>التوصيل</span>
+
+        <strong id="shippingCost">
+          0 د.أ
+        </strong>
+
+      </div>
+
+
+      <div class="summary-row total-row">
+
+        <span>الإجمالي</span>
+
+        <strong id="cartTotal">
+          0 د.أ
+        </strong>
+
+      </div>
+
+
+      <button
+        id="checkoutBtn"
+        class="checkout-btn"
+      >
+        إتمام الطلب
+        <i class="fa-solid fa-arrow-left"></i>
+      </button>
+
+    </div>
+
+  </aside>
+
+
+  <!-- المفضلة -->
+
+  <div
+    class="drawer-overlay"
+    id="wishlistOverlay"
+  ></div>
+
+
+  <aside
+    class="side-drawer"
+    id="wishlistDrawer"
+  >
+
+    <div class="drawer-header">
+
+      <div>
+
+        <h2>
+          <i class="fa-regular fa-heart"></i>
+          المفضلة
+        </h2>
+
+        <p>
+          منتجاتك المفضلة
+        </p>
+
+      </div>
+
+
+      <button
+        id="closeWishlist"
+        aria-label="إغلاق المفضلة"
+      >
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+    </div>
+
+
+    <div
+      class="drawer-body"
+      id="wishlistItems"
+    >
+
+      <div class="empty-state">
+
+        <i class="fa-regular fa-heart"></i>
+
+        <h3>
+          المفضلة فارغة
+        </h3>
+
+        <p>
+          احفظ المنتجات التي أعجبتك هنا
+        </p>
+
+      </div>
+
+    </div>
+
+  </aside>
+
+
+  <!-- تفاصيل المنتج -->
+
+  <div
+    class="modal-overlay"
+    id="productModal"
+  >
+
+    <div class="product-modal-box">
+
+      <button
+        class="modal-close"
+        id="closeProductModal"
+        aria-label="إغلاق"
+      >
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div id="productModalContent"></div>
+
+    </div>
+
+  </div>
+
+
+  <!-- إتمام الطلب -->
+
+  <div
+    class="modal-overlay"
+    id="checkoutModal"
+  >
+
+    <div class="checkout-modal-box">
+
+      <button
+        class="modal-close"
+        id="closeCheckoutModal"
+        aria-label="إغلاق"
+      >
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+
+      <div class="checkout-header">
+
+        <i class="fa-solid fa-bag-shopping"></i>
+
+        <div>
+          <h2>إتمام الطلب</h2>
+          <p>أدخل بيانات التوصيل</p>
+        </div>
+
+      </div>
+
+
+      <form id="checkoutForm">
+
+        <div class="form-grid">
+
+          <div class="form-group">
+
+            <label for="customerName">
+              الاسم الكامل
+            </label>
+
+            <input
+              type="text"
+              id="customerName"
+              placeholder="أدخل الاسم الكامل"
+              required
+            >
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label for="customerPhone">
+              رقم الهاتف
+            </label>
+
+            <input
+              type="tel"
+              id="customerPhone"
+              placeholder="رقم الهاتف"
+              required
+            >
+
+          </div>
+
+
+          <div class="form-group full-width">
+
+            <label for="customerAddress">
+              عنوان التوصيل
+            </label>
+
+            <input
+              type="text"
+              id="customerAddress"
+              placeholder="المدينة والمنطقة والعنوان"
+              required
+            >
+
+          </div>
+
+
+          <div class="form-group full-width">
+
+            <label for="customerNotes">
+              ملاحظات
+            </label>
+
+            <textarea
+              id="customerNotes"
+              rows="3"
+              placeholder="أي ملاحظات إضافية"
+            ></textarea>
+
+          </div>
+
+        </div>
+
+
+        <div class="payment-section">
+
+          <h3>طريقة الدفع</h3>
+
+
+          <label class="payment-option">
+
+            <input
+              type="radio"
+              name="payment"
+              value="cash"
+              checked
+            >
+
+            <i class="fa-solid fa-money-bill-wave"></i>
+
+            <span>
+              <strong>الدفع عند الاستلام</strong>
+              <small>الدفع عند وصول الطلب</small>
+            </span>
+
+          </label>
+
+
+          <label class="payment-option">
+
+            <input
+              type="radio"
+              name="payment"
+              value="card"
+            >
+
+            <i class="fa-regular fa-credit-card"></i>
+
+            <span>
+              <strong>بطاقة بنكية</strong>
+              <small>خيار تجريبي ضمن نموذج المتجر</small>
+            </span>
+
+          </label>
+
+        </div>
+
+
+        <div class="checkout-total">
+
+          <span>إجمالي الطلب</span>
+
+          <strong id="checkoutTotal">
+            0 د.أ
+          </strong>
+
+        </div>
+
+
+        <button
+          type="submit"
+          class="place-order-btn"
+        >
+          تأكيد الطلب
+          <i class="fa-solid fa-check"></i>
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+
+  <!-- نجاح الطلب -->
+
+  <div
+    class="modal-overlay"
+    id="successModal"
+  >
+
+    <div class="success-box">
+
+      <div class="success-icon">
+        <i class="fa-solid fa-check"></i>
+      </div>
+
+      <h2>
+        تم استلام طلبك بنجاح
+      </h2>
+
+      <p>
+        شكرًا لاختيار قوة
+        سيتم التواصل معك لتأكيد تفاصيل الطلب
+      </p>
+
+      <strong id="orderNumber"></strong>
+
+      <button
+        id="closeSuccessModal"
+        class="primary-btn"
+      >
+        متابعة التسوق
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <!-- Toast -->
+
+  <div
+    class="toast-container"
+    id="toastContainer"
+  ></div>
+
+
+  <!-- العودة للأعلى -->
+
+  <button
+    class="back-to-top"
+    id="backToTop"
+    aria-label="العودة للأعلى"
+  >
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
